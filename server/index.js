@@ -19,11 +19,11 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use('/', router)
 
-const dbOptions = {useNewUrlParser:true, useUnifiedTopology:true}
+/*const dbOptions = {useNewUrlParser:true, useUnifiedTopology:true}
 mongoose.connect(process.env.DB_URI, dbOptions)
 .then(() => console.log('DB Connected!'))
 .catch(err => console.log(err))
-
+*/
 const port = process.env.PORT || 8080
 const server = app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
