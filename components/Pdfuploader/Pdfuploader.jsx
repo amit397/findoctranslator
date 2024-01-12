@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import styles from "./PDFUstyles.module.css";
-import Head from "next/head"
 
 
 export default function Pdfuploader() {
