@@ -109,7 +109,7 @@ export default function Home() {
             <div className="flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
               <a href="#" className="flex flex-col items-center mt-36 max-md:max-w-full max-md:mt-10" aria-label="Join Savings">
                 <div className="text-white text-center text-7xl font-semibold tracking-[2.4px] self-stretch max-md:max-w-full max-md:text-4xl">
-                  Join Peer-to-Peer Saving Challenges
+                  Join Community Saving Challenges
                 </div>
                 <div className="text-white text-center text-3xl font-medium tracking-widest self-stretch mt-10 max-md:max-w-full max-md:mt-10">
                   Connect with Like-Minded Savers, Set Goals, and Achieve Financial Milestones Together
